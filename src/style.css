@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
+
+html {
+  background-color: theme("colors.slate.200");
+  font-size: 16px;
+}
