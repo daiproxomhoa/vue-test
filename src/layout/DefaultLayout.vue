@@ -5,9 +5,9 @@ import DefaultAsidebar from './DefaultAsidebar.vue';
 </script>
 
 <template>
-  <div class="flex min-h-screen">
+  <div class="flex h-screen">
     <DefaultAsidebar />
-    <div class="flex flex-col h-full overflow-auto p-4 flex-1 max-h-full">
+    <div class="flex flex-col h-full p-4 flex-1 overflow-hidden h-sc">
       <RouterView />
     </div>
   </div>

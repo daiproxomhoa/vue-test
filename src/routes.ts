@@ -2,7 +2,7 @@
 
 import { RouteRecordRaw, createRouter, createWebHistory } from "vue-router";
 import AboutVue from "./About.vue";
-import CalculateVue from "./Calculate.vue";
+import CalculateVue from "./pages/Calculate.vue";
 import LoginPageVue from "./LoginPage.vue";
 import DefaultLayout from "./layout/DefaultLayout.vue";
 import { authState } from "./store/auth";
